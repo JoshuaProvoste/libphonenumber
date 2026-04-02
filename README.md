@@ -1,3 +1,17 @@
+---
+
+# libphonenumber (Fork)
+
+This repository is a fork of the official [google/libphonenumber](https://github.com/google/libphonenumber) project.
+
+It was created to identify and fix critical security vulnerabilities (Reflected XSS and CSRF) in the Migrator and Geocoding tools.
+
+Links to the Pull Requests:
+- **Case 1 (Migrator Tool):** https://github.com/google/libphonenumber/pull/3982
+- **Case 2 (Geodata Reducer):** https://github.com/google/libphonenumber/pull/3983
+
+---
+
 <p align="right">
 <img src="https://travis-ci.org/google/libphonenumber.svg?branch=master">
 </p>
